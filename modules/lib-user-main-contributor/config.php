@@ -40,4 +40,17 @@ return [
             ]
         ]
     ],
+    'libForm' => [
+        'forms' => [
+            'admin.user.profile' => [
+                'contributor' => [
+                    'type' => 'select',
+                    'label' => 'Account Type',
+                    'position' => 'top-left',
+                    'options' => ['General', 'Contributor'],
+                    'rules' => []
+                ]
+            ]
+        ]
+    ]
 ];
